@@ -40,6 +40,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "librelingo-course-editor.herokuapp.com",
     "editor.librelingo.app",
+    "trucnx.github.io/editor.LibreLingo",
     "auth.librelingo.app",
 ]
 
@@ -149,5 +150,5 @@ TEST_RUNNER = 'snapshottest.django.TestRunner'
 FIXTURE_DIRS = [os.path.join(os.getcwd(), "workspaces", "web", "dumps")]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://librelingo.app",
+    "https://librelingo.app", "https://trucnx.github.io/LibreLingo/"
 ]
